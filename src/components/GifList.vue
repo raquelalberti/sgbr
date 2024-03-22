@@ -60,9 +60,9 @@ export default {
     async fetchGifs() {
       // Buscar GIFs da API
       try {
-        let url = `https://api.giphy.com/v1/gifs/trending?api_key=dV4nETEfJhtzMo64gh7UvonGFN96D4xW&limit=${this.limit}&offset=${this.offset}`;
+        let url = `https://api.giphy.com/v1/gifs/trending?api_key=tfPCpnK8YjPy15IA1X3wc4bvOdRb9M3U&limit=${this.limit}&offset=${this.offset}`;
         if (this.searchTerm) {
-          url = `https://api.giphy.com/v1/gifs/search?api_key=dV4nETEfJhtzMo64gh7UvonGFN96D4xW&q=${this.searchTerm}&limit=${this.limit}&offset=${this.offset}`;
+          url = `https://api.giphy.com/v1/gifs/search?api_key=tfPCpnK8YjPy15IA1X3wc4bvOdRb9M3U&q=${this.searchTerm}&limit=${this.limit}&offset=${this.offset}`;
         }
         const response = await fetch(url);
         if (!response.ok) {
