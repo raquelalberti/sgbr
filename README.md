@@ -11,7 +11,7 @@ Este é um projeto desenvolvido em Vue.js e Tailwind CSS e consiste em uma galer
 ## Instalação:
 
 - Cloque o repositório:
-git clone https://github.com/********************
+git clone https://github.com/raquelalberti/sgbr
 
 - Acesse o diretório do projeto:
 cd sgbr
